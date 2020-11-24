@@ -7,12 +7,14 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack",
     "build-prod": "webpack --config webpack.prod.config.js",
-    "build-dev": "webpack serve --config webpack.dev.config.js --hot"
+    "build-dev": "webpack serve --config webpack.dev.config.js --hot",
+    "start": "node src/server.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "express": "^4.17.1",
     "lodash": "^4.17.20",
     "react": "^17.0.1"
   },
